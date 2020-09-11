@@ -12,10 +12,10 @@ from sklearn.preprocessing import MinMaxScaler
 sys.path.append('../../')
 import pickle
 import copy
-from util import utilities as Utils
-from util import display as Display_Utils
-from core4 import AspectLearnerGSOM as GSOM_Core
-from params import params as Params
+from Parallel_GSOM_for_HAAP.util import utilities as Utils
+from Parallel_GSOM_for_HAAP.util import display as Display_Utils
+from Parallel_GSOM_for_HAAP.core4 import AspectLearnerGSOM as GSOM_Core
+from Parallel_GSOM_for_HAAP.params import params as Params
 
 
 class GSOMClassifier():

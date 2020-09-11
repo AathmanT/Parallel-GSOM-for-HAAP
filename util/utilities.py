@@ -3,7 +3,7 @@ import datetime, time, sys
 import math
 import numpy as np
 from scipy import spatial
-from params import params as Params
+from Parallel_GSOM_for_HAAP.params import params as Params
 import scipy
 
 class Utilities:

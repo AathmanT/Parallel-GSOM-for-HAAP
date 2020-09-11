@@ -2,18 +2,18 @@ import sys
 
 sys.path.append('../../')
 import numpy as np
-import Lock
+import Parallel_GSOM_for_HAAP.Lock as Lock
 import time
 import os
 from os.path import join
 from datetime import datetime
-from util import utilities as Utils
+from Parallel_GSOM_for_HAAP.util import utilities as Utils
 from sklearn.metrics import confusion_matrix
 
-from core4.AspectLearnerGSOM import AspectLearnerGSOM
-from core4.AssociativeGSOM import AssociativeGSOM
-from util import display as Display_Utils
-from params import params as Params
+from Parallel_GSOM_for_HAAP.core4.AspectLearnerGSOM import AspectLearnerGSOM
+from Parallel_GSOM_for_HAAP.core4.AssociativeGSOM import AssociativeGSOM
+from Parallel_GSOM_for_HAAP.util import display as Display_Utils
+from Parallel_GSOM_for_HAAP.params import params as Params
 
 
 def generate_output_config(SF, forget_threshold):

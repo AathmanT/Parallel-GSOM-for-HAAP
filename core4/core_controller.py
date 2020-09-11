@@ -1,5 +1,5 @@
 import time
-from core4 import AspectLearnerGSOM as GSOM_Core
+from Parallel_GSOM_for_HAAP.core4 import AspectLearnerGSOM as GSOM_Core
 
 
 class Controller:

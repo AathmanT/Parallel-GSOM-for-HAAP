@@ -1,14 +1,16 @@
 import sys
 
 sys.path.append('../../')
-import Lock
+from os.path import join
+
+import Parallel_GSOM_for_HAAP.Lock as Lock
 import time
 import os
 from datetime import datetime
 
-from params import params as Params
+from Parallel_GSOM_for_HAAP.params import params as Params
 import pickle
-from GSOM_from_Weights import *
+from Parallel_GSOM_for_HAAP.gsom_from_weights import *
 
 def generate_output_config(SF, forget_threshold):
     # File Config

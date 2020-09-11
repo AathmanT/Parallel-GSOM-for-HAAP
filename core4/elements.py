@@ -1,6 +1,6 @@
 import random
 import numpy as np
-from util import utilities as Utils
+from Parallel_GSOM_for_HAAP.util import utilities as Utils
 
 
 class InputWeight:

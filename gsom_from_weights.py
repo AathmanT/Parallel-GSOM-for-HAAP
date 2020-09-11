@@ -1,17 +1,14 @@
-import math
+import sys
+
+sys.path.append('../../')
+
 import numpy as np
 import copy
-import scipy
-import pandas as pd
-from tqdm import tqdm
-from os.path import join
 import threading
 
-from core4 import growth_handler as Growth_Handler
-from core4 import elements as Elements
-from util import utilities as Utils
-from util import display as Display_Utils
-import Lock
+from Parallel_GSOM_for_HAAP.core4 import growth_handler as Growth_Handler
+from Parallel_GSOM_for_HAAP.util import utilities as Utils
+
 
 np.random.seed(8)
 
