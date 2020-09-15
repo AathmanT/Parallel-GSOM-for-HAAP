@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append('../../')
+#sys.path.append('../../')
 from os.path import join
 
 import Parallel_GSOM_for_HAAP.Lock as Lock
