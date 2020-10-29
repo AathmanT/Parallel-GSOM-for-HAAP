@@ -2,12 +2,23 @@ import sys
 
 #sys.path.append('../../')
 
+import sys
+for path in sys.path:
+    print(path)
+
+sys.path.append('/content/ThEmoBe_Basic/Parallel_GSOM_for_HAAP')
+sys.path.append('/content/ThEmoBe/Parallel_GSOM_for_HAAP')
+
+print("Adding core4")
+for path in sys.path:
+    print(path)
+
 import numpy as np
 import copy
 import threading
 
-from Parallel_GSOM_for_HAAP.core4 import growth_handler as Growth_Handler
-from Parallel_GSOM_for_HAAP.util import utilities as Utils
+from core4 import growth_handler as Growth_Handler
+from util import utilities as Utils
 
 
 np.random.seed(8)
