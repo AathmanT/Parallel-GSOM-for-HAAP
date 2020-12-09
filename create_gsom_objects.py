@@ -63,7 +63,8 @@ BehaviourGSOM = GSOM_from_Weights(generalise_params.get_gsom_parameters())
 
 ThreatGSOM = GSOM_from_Weights(generalise_params.get_gsom_parameters())
 
-pickle_directory = "/content/drive/My Drive/Dataset/GSOM_EXPERIMENTS/output-50-epoc_1/"
+# pickle_directory = "/content/drive/My Drive/Dataset/GSOM_EXPERIMENTS/output-50-epoc_1/"
+pickle_directory = "/root/FYP_Model_weights/"
 
 pickle_in = open(pickle_directory+"final-emotion-gsom_nodemap_SF-0.83_2020-07-29-05-39-20.pickle","rb")
 dict_map = pickle.load(pickle_in)
