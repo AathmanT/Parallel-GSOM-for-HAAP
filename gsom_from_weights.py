@@ -6,8 +6,8 @@ import sys
 for path in sys.path:
     print(path)
 
-sys.path.append('/content/ThEmoBe_Basic/Parallel_GSOM_for_HAAP')
-sys.path.append('/content/ThEmoBe/Parallel_GSOM_for_HAAP')
+sys.path.append('/root/ThEmoBe/Parallel_GSOM_for_HAAP')
+sys.path.append('/root/ThEmoBe/Parallel_GSOM_for_HAAP')
 
 print("Adding core4")
 for path in sys.path:
